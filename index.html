@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & JavaScript Animations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Animation Demo</h1>
+        
+        <div class="preferences">
+            <h2>User Preferences</h2>
+            <div class="preference-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username">
+                
+                <label for="theme">Theme:</label>
+                <select id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="blue">Blue</option>
+                </select>
+                
+                <button id="savePrefs">Save Preferences</button>
+                <button id="loadPrefs">Load Preferences</button>
+                <button id="resetPrefs">Reset Preferences</button>
+            </div>
+        </div>
+        
+        <div class="animation-area">
+            <h2>Animation Controls</h2>
+            <button id="animateBtn" class="pulse">Click to Animate</button>
+            <div id="animatedElement" class="box"></div>
+        </div>
+        
+        <div class="gallery">
+            <h2>Image Gallery (Hover Effects)</h2>
+            <div class="image-container">
+                <img src="https://picsum.photos/300/200?random=1" alt="Random image 1" class="gallery-img">
+                <img src="https://picsum.photos/300/200?random=2" alt="Random image 2" class="gallery-img">
+                <img src="https://picsum.photos/300/200?random=3" alt="Random image 3" class="gallery-img">
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
